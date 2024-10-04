@@ -4,10 +4,10 @@
 10/04/2024
 
 ### Project Title
-Bikeshare project
+Bikeshares project
 
 ### Description
-Calculation data for Bikeshares 
+Calculation data for Bikeshares for Chicago
 
 ### Files used
 - new_york_city.csv
