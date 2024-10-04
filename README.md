@@ -7,12 +7,12 @@
 Bikeshare project
 
 ### Description
-Calculation data for Bikeshare
+Calculation data for Bikeshares 
 
 ### Files used
-- new_york_city.csv
+`- new_york_city.csv
 - washington.csv
-- chicago.csv
+- chicago.csv`
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
