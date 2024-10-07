@@ -169,7 +169,7 @@ def user_stats(df):
 
 def generate_first_5_row(df):
 
-    row = 5
+    row = 3
     df['Start Time'] = df['Start Time'].dt.strftime('%Y-%m-%d %H:%M:%S')
     answers = ['yes', 'no']
     answer = None
@@ -177,12 +177,12 @@ def generate_first_5_row(df):
         answer = input('Do you want to check the first 5 rows of the dataset related to the chosen city?').lower()
         if answer == 'yes':
             print(json.dumps(df.head(row).to_dict('index'), indent=1))
-            row += 5
-    if row != 5:
+            row += 3
+    if row != 3:
         while answer == 'yes':
-            answer = input('Do you want to check another 5 rows of the dataset?').lower()
+            answer = input('Do you want to check another 3 rows of the dataset?').lower()
             print(json.dumps(df.head(row).to_dict('index'), indent=1))
-            row += 5
+            row += 3
             
 
 def main():
